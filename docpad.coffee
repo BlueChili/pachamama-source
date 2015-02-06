@@ -5,6 +5,7 @@
 docpadConfig = {
 	# ...
 	outPath: '../pachamama-render'
+	documentsPaths: ['docs']
 }
 
 # Export the DocPad Configuration

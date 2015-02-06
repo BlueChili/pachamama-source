@@ -4,7 +4,8 @@ html
 		meta(charset='UTF-8')
 		title <%= @document.title %>
 		link(rel='stylesheet' href='css/styles.css')
+		link(rel='stylesheet' href='css/article.css')
 	body
 		include partials/header.html.jade
 		include partials/navbar.html.jade
-		<%- @content %>
+		div.article <%- @content %>
